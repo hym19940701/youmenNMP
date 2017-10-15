@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="swiper/swiper.min.css">
+  <link rel="stylesheet/less" type="text/css" href="less/style.less">
+  <script src="less/less.js"></script>
+</head>
+<body>
+<div class="head">
+  <div class="top-log">
+    <img src="http://ugame.uc.cn/public/images/logo.png" alt="">
+  </div>
+  <div class="menu">
+    <div class="content">
+      <ul>
+        <li><a href="">首页</a></li>
+        <li><a href="">帮助</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="banner">
+  <div class="center">
+    <form action="#" id="login-form" class="login">
+      <div class="inputGroup name"><i class="index-icon"></i><input type="text" placeholder="用户名"></div>
+      <div class="inputGroup pwd"><i class="index-icon"></i><input type="text" placeholder="密码"></div>
+      <div class="inputGroup checkcode">
+        <i class="index-icon" ></i>
+        <input type="text" placeholder="验证码">
+        <div class="code">
+          <img src="http://ugame.uc.cn/captcha" alt="">
+        </div>
+      </div>
+      <button id="submit-btn" class="btn-1 submit">登录</button>
+    </form>
+  </div>
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="http://ugame.uc.cn/public/images/index/no_login_banner.png" alt=""></div>
+        <div class="swiper-slide"><img src="http://ugame.uc.cn/public/images/index/no_login_banner_tszj.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="http://ugame.uc.cn/public/images/index/no_login_banner_wdsj.jpg" alt=""></div>
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+      <!-- 如果需要滚动条 -->
+      <!--<div class="swiper-scrollbar"></div>-->
+    </div>
+</div>
+<script src="swiper/swiper.min.js"></script>
+<script src="js/swiper.config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
